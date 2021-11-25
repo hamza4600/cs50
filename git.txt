@@ -1,0 +1,88 @@
+Git is used for version controll IT manage the code and changes in the code we have  it also provide a method  the we can host a repo Online and our colllages can work along us with  the 
+same code we also push cahnges on the repo and our collages can also get the changes many people can work on a smae code making the changing
+
+we can also make changes to Code it we satisfay with the cahnges then we can add then to the orignal Repo 
+
+we can also reverse back to old version of our code 
+Mostaly used for large code Projects  
+Github have a  alternative 
+
+git clone <url> 
+is used to clone a repo we wnat and content is also done 
+
+git add 
+is used to add fielto the server
+
+git commit -m ""
+used to add commite to the code or a file easy for us that we know the detils 
+add new line  discription of code or files 
+
+git status 
+tell what happening in the repo 
+
+git push
+code is add to the repo 
+
+git commit -am
+add all files that are bering changed and provide a message
+
+then type 
+git push add all changes to the file in the server 
+
+git pull 
+means  get the changes in the code from the Git server  that are made an show in my local machine 
+
+Merger Conflit 
+mean that we are making chnageing in the code our collage is also making chnaging in the code but tha have an error both at the same time
+
+git commit -am "Fix merge conflict"
+then add 
+git push 
+the chnage that are made by two or more developrs are now Hosted on the server  code is updated 
+
+git log
+ it tell the histry or code who had made chnage the code who adde the code on what Date     
+
+git reset 
+ it tel and show the previous state of code 
+
+git reset --hash 
+    hard reset  the code to previous state 
+
+Branching
+    Is the Git way on working on the new Featurs On the App 
+    when we devolp an App after continus add new developmnet the we wnat to add new featurs then we we will add new Branch that will hold rhe new featurs and then keep working on that 
+
+tHEN WE WILL HAVE DIFFERNT bRANches on a repo having new feature and fixxing the Bugs  
+after that new featur we can merge the change with new feature  
+
+git branch 
+show the current branch of repo 
+
+git checkout -b name
+     it will creat a new Branch wilth the name we enter then we will move to the branch and make chnages to the code will not affect the Master Branch
+
+Example 
+git commit -am "commites "
+    add  new commites and remove the code iin the Branch 
+
+git check master 
+    move to word the master Branch 
+
+git merge name of branch
+    that changes  which are present in the BRanch will be add in the Master repo 
+    It Often show the Merge Conflit 
+    \
+
+If we want to make changing to open source code then we need to fork the repo we can add contribution of code 
+
+Fork mean a copy of repo 
+after Fork we can ,add new featurn to the code then we will requet the repo and 
+Pull request to the repo 
+Aftre that Manin Contributer will see the changing and merger our code with the Master File 
+
+That is hOw Open Source work all Contributer from all over World work on the same App'
+
+
+
+
